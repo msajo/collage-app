@@ -1,22 +1,36 @@
 body{
     background-color: aquamarine;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: dotted;
 }
 
 #title{
-   font-size: 25px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   text-decoration: underline;
-   scrollbar-highlight-color: red; 
+    font-weight: 100;
+    font-size: 25px;
+    font-family: cursive;
 }
 
-#textbox{
-    width: 50%;
-    height: 20%;
-}
-
-#save{
+H4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:navy;
+}
+
+#camera{
+    width: 500px;
+    height: 400px;
+    border-color: aqua;
+}
+
+.copy_rigth_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+#big_img,#big_img2{
+    width: 80%;
+    height: 80%;
 }
